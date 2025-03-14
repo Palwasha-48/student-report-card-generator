@@ -138,3 +138,6 @@ if st.session_state.students_data:
 
     styled_df = df.style.applymap(highlight_grades, subset=["Grade"])
     st.dataframe(styled_df, use_container_width=True)
+
+st.text("💌 Made with love by Palwasha ❤️")
+
